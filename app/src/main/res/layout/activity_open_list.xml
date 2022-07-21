@@ -3,14 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".OpenList">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_button"
+        android:id="@+id/recycler_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/button_item"/>
+        tools:listitem="@android:layout/simple_list_item_1"/>
 
 </LinearLayout>

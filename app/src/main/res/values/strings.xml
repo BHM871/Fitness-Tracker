@@ -12,9 +12,9 @@
     <string name="age">Idade</string>
     <string name="calcu">Calcular</string>
 
-    <string name="fields_messages">Todos os campos devem ser maiores do que zero</string>
-
     <string name="result_imc">IMC: %1$.2f</string>
+    <string name="result_tmb">Tmb: %1$.2f</string>
+
     <string name="imc_severely_low_weight">Severamente abaixo do peso</string>
     <string name="imc_very_low_weight">Muito abaixo do peso</string>
     <string name="imc_low_weight">Abaixo do peso</string>
@@ -24,15 +24,29 @@
     <string name="imc_severely_high_weight">Severamente obeso</string>
     <string name="imc_extreme_weight">Extremamente obeso</string>
 
-    <string name="result_tmb">Tmb: %1$.2f</string>
-
     <string name="save">Salvar</string>
     <string name="search">Buscar</string>
+    <string name="update">Editar</string>
     <string name="cancel">Cancelar</string>
+    <string name="atencao">Atenção</string>
 
     <string name="calc_saved">Registro salvo com sucesso</string>
     <string name="calc_removed">Registro removido com sucesso</string>
     <string name="delete_message">Você realmente quer excluir o registro?</string>
+    <string name="fields_messages">Todos os campos devem ser maiores do que zero</string>
+    <string name="update_message">Você realmente quer editar esse registro</string>
+    <string name="calc_update">Editado com sucesso</string>
+
+
     <string name="todo">TODO</string>
+    <string name="result_list">Resultado: %.2f; Data: %s</string>
+    <string name="see_list_calcu">Ver lista de resultados</string>
+
+    <string name="sex">Sexo:</string>
+    <string name="masculine">Masculino</string>
+    <string name="feminine">Feminino</string>
+    <string name="taxa">Selecione uma taxa de exercícios</string>
+
+    <string name="vazio"> </string>
 
 </resources>

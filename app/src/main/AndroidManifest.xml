@@ -3,6 +3,7 @@
     package="co.tiagoaguiar.fitnesstracker">
 
     <application
+        android:name=".Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,8 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessTracker">
         <activity
-            android:name=".ImcActivity"
+            android:name=".TmbActivity"
             android:exported="false" />
+        <activity
+            android:name=".OpenList"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ImcActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
