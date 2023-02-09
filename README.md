@@ -34,6 +34,9 @@
   <h2>IMC Activity</h2>
   <div id="objective-imc">
    <h3>Objective</h3>
+   <p>
+    This class aims to receive the values for the BMI calculation and by consequence make the calculation, besides being responsible for saving the result in the database.
+   </p>
   </div>
   <div id="functions-imc">
    <h3>:hammer: Fetuares</h3>
@@ -52,6 +55,9 @@
   <h2>TMB Activity</h2>
    <div id="objective-tmb">
     <h3>Objective</h3>
+    <p>
+     This class aims to receive the values for the TMB calculation and by consequence make the calculation, besides being responsible for saving the result in the database.
+    </p>
    </div>
    <div id="functions-tmb">
     <h3>:hammer: Fetuares</h3>
@@ -72,8 +78,19 @@
   <h2>Open List</h2>
   <div id="objective-open">
    <h3>Objective</h3>
+   <p>
+    This class is intended to show the saved history, individually from the BMI and TMB. It may also be required to edit any data unless.
+   </p>
   </div>
   <div id="functions-open">
+   <h3>:hammer: Fetuares</h3>
+   
+- `fun openUpdate(id: Int, type: String)`: 
+     This function is intended to inform which activity should be directed when editing an item is required.
+- `private inner class AdapterList(val list: MutableList<ItemListCalcu>) : RecyclerView.Adapter<AdapterList.HolderList>(), OnClicks`: 
+     This class has the functionality of creating an adapter for Recycler View.
+- `private inner class HolderList(itemView: View) : RecyclerView.ViewHolder(itemView)`: 
+     This class has the functionality of changing the attributes of each element to be created by the Adapter and shown by Recycler View.
   </div>
  </section>
 </section>
