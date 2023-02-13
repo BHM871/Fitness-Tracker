@@ -21,10 +21,62 @@
    </p>
   </div>
   <div id="functions-aplication">
-   <h3>:hammer: Fetuares</h3>
+   <h3>:hammer: Features</h3>
    
-- `TODO`: Ainda vou adicionar as funções.
+- `fun dialog(activity: Activity, title: String, result: Double, response: Int? = null, updateId: Int?, type: String)`:
+ This function aims to create an Alert Dialog that shows the value of the IMC or TMB and may or may not save or edit the value shown.
+- `fun closeKeyboard(activity: Activity)`:
+ This function aims to close the keyboard being shown in the activity passed in the
+- `fun toastGeneric(context: Context, resId: Int)`:
+ This function aims to create a Toast.
+- `fun openListActivity(activity: Activity, type: String)`:
+ This function aims to open the Open List activity by passing the type to define which values will be shown, those of the BMI or TMB.
 
+  </div>
+ </section>
+ <section id="database-list">
+  <h2>Database List</h2>
+  <div id="objective-database">
+   <h3>Objective</h3>
+   <p>
+    This class aims to create and manage the local database.
+   </p>
+  </div>
+  <div id="functions-database">
+   <h3>:hammer: Features</h3>
+   
+ - `fun getInstance(context: Context): DatabaseList`:
+  This function is intended to create and instantiate the database, when the database already exists it only instantiates.
+   
+  </div>
+ </section>
+ 
+ <section id="date-converter">
+  <h2>Date Converter</h3>
+  <div id="objective-converter">
+   <h3>Objective</h3>
+   <p>
+    This class aims to convert data of type Long to Date and date type to Long.
+   </p>
+  </div>
+  <div id="functions-converter">
+  <h3>:hammer: Features</h3>
+   
+- `fun toDate(longDate: Long?): Date?`:
+ This function aims to convert from Long to Date and return the Date value.
+- `fun fromDate(date: Date?): Long?`:
+ This function aims to convert from Date to Long and return the Long value.
+   
+  </div>
+ </section>
+ 
+ <section id="on_click">
+  <h2>On Click</h2>
+  <div id="objective-converter">
+   <h3>Objective</h3>
+   <p>
+    This interface creates two OnClicks functions
+   </p>
   </div>
  </section>
 </section>
@@ -41,12 +93,12 @@
    </p>
   </div>
   <div id="functions-main">
-   <h3>:hammer: Fetuares</h3>
+   <h3>:hammer: Features</h3>
     
 - `private inner class AdapterMain(val buttons: List<Button>, val listener: ((Button) -> Unit)?) : RecyclerView.Adapter<Holder>()`: 
-     This class has the functionality of creating an adapter for Recycler View.
+ This class has the functionality of creating an adapter for Recycler View.
 - `private class Holder(itemView: View, val onClick: ((Button) -> Unit)?) : RecyclerView.ViewHolder(itemView)`: 
-     This class has the functionality of changing the attributes of each element to be created by the Adapter and shown by Recycler View.
+ This class has the functionality of changing the attributes of each element to be created by the Adapter and shown by Recycler View.
  
   </div>
  </section>
@@ -60,14 +112,14 @@
    </p>
   </div>
   <div id="functions-imc">
-   <h3>:hammer: Fetuares</h3>
+   <h3>:hammer: Features</h3>
      
-- `private fun calcuImc(): Double`: 
-     This function aims to calculate the BMI value.
+- `private fun calcuImc(): Double`:
+ This function aims to calculate the BMI value.
 - `private fun response(imc: Double): Int`: 
-     This function aims to verify the degree of obesity or thinness and returns a String saying the same.
+ This function aims to verify the degree of obesity or thinness and returns a String saying the same.
 - `private fun validate(): Boolean`: 
-     This function is intended to verify that all fields have been filled in correctly.
+ This function is intended to verify that all fields have been filled in correctly.
      
   </div>
  </section>
@@ -81,16 +133,16 @@
     </p>
    </div>
    <div id="functions-tmb">
-    <h3>:hammer: Fetuares</h3>
+    <h3>:hammer: Features</h3>
      
 - `private fun calcuTmb(): Double`: 
-     This function aims to calculate the TMB value.
+ This function aims to calculate the TMB value.
 - `private fun taxa(): Double`: 
-     This function verifies the value selected in Auto Complete and returns the related value for the calculation.
+ This function verifies the value selected in Auto Complete and returns the related value for the calculation.
 - `private fun sex(): String`: 
-     This function checks which Radio Button was selected to return the value corresponding to the sex to perform the calculation.
+ This function checks which Radio Button was selected to return the value corresponding to the sex to perform the calculation.
 - `private fun validate(): Boolean`: 
-     This function is intended to verify that all fields have been filled in correctly.
+ This function is intended to verify that all fields have been filled in correctly.
      
   </div>
  </section>
@@ -104,14 +156,14 @@
    </p>
   </div>
   <div id="functions-open">
-   <h3>:hammer: Fetuares</h3>
+   <h3>:hammer: Features</h3>
    
 - `fun openUpdate(id: Int, type: String)`: 
-     This function is intended to inform which activity should be directed when editing an item is required.
+ This function is intended to inform which activity should be directed when editing an item is required.
 - `private inner class AdapterList(val list: MutableList<ItemListCalcu>) : RecyclerView.Adapter<AdapterList.HolderList>(), OnClicks`: 
-     This class has the functionality of creating an adapter for Recycler View.
+ This class has the functionality of creating an adapter for Recycler View.
 - `private inner class HolderList(itemView: View) : RecyclerView.ViewHolder(itemView)`: 
-     This class has the functionality of changing the attributes of each element to be created by the Adapter and shown by Recycler View.
+ This class has the functionality of changing the attributes of each element to be created by the Adapter and shown by Recycler View.
   </div>
  </section>
 </section>
