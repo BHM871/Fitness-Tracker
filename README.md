@@ -5,8 +5,29 @@
 <h2>Índice</h2>
 
 <!--ts-->
+  * [Utilities](#utilities)
   * [Activitys](#activitys)
 <!--te-->
+
+<section id="utilities">
+ <h2 align="center">Utilities</h2>
+ <p align="center"></p>
+ <section id="aplication>
+  <h2>Aplication</h2>
+  <div id="objective-aplication">
+   <h3>Objective</h3>
+   <p>
+    This class is intended to contain generic functionality that can be accessed by any Activity.
+   </p>
+  </div>
+  <div id="functions-aplication">
+   <h3>:hammer: Fetuares</h3>
+   
+- `TODO`: Ainda vou adicionar as funções.
+
+  </div>
+ </section>
+</section>
 
 <section id="activitys">
  <h2 align="center">Activitys</h2>
@@ -44,7 +65,7 @@
 - `private fun calcuImc(): Double`: 
      This function aims to calculate the BMI value.
 - `private fun response(imc: Double): Int`: 
-     TODO: Ainda vou terminar
+     This function aims to verify the degree of obesity or thinness and returns a String saying the same.
 - `private fun validate(): Boolean`: 
      This function is intended to verify that all fields have been filled in correctly.
      
@@ -65,9 +86,9 @@
 - `private fun calcuTmb(): Double`: 
      This function aims to calculate the TMB value.
 - `private fun taxa(): Double`: 
-     TODO: Ainda vou terminar
+     This function verifies the value selected in Auto Complete and returns the related value for the calculation.
 - `private fun sex(): String`: 
-     TODO: Ainda vou terminar
+     This function checks which Radio Button was selected to return the value corresponding to the sex to perform the calculation.
 - `private fun validate(): Boolean`: 
      This function is intended to verify that all fields have been filled in correctly.
      
