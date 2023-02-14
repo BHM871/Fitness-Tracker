@@ -1,6 +1,6 @@
 <h1 align="center">Fitness Tracker</h1>
 
-<h3 align="center">This application is used to calculate the body Coporal Mass Index (BMI) and Basal Métabolica Rate (TMB) and save this data in a RoomDatabase data collection, with the value and time it was saved.</h3>
+<h3 align="center">This application is used to calculate the body Body Mass Index (BMI) and Basal Métabolica Rate (TMB) and save this data in a RoomDatabase data collection, with the value and time it was saved.</h3>
 
 <div align="center">
  <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=blue&style=flat">
