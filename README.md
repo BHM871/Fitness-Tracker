@@ -19,7 +19,8 @@
  <p align="center">In this topic I will describe the class which has utilities for the other classes.</p>
  
  <section id="aplication">
-  <h2>Aplication</h2>
+  
+## [Aplication](https://github.com/BHM871/Fitness-Tracker/blob/master/app/src/main/java/co/tiagoaguiar/fitnesstracker/Application.kt)
   
   <div id="objective-aplication">
    <h3>Objective</h3>
@@ -44,7 +45,8 @@
  </section>
  
  <section id="database-list">
-  <h2>Database List</h2>
+  
+## [Database List](https://github.com/BHM871/Fitness-Tracker/blob/master/app/src/main/java/co/tiagoaguiar/fitnesstracker/util/DatabaseList.kt)
   
   <div id="objective-database">
    <h3>Objective</h3>
@@ -63,7 +65,8 @@
  </section>
  
  <section id="date-converter">
-  <h2>Date Converter</h3>
+  
+## [Date Converter](https://github.com/BHM871/Fitness-Tracker/blob/master/app/src/main/java/co/tiagoaguiar/fitnesstracker/util/DateConverter.kt)
   
   <div id="objective-converter">
    <h3>Objective</h3>
@@ -84,7 +87,8 @@
  </section>
  
  <section id="on_click">
-  <h2>On Click</h2>
+  
+## [On Click](https://github.com/BHM871/Fitness-Tracker/blob/master/app/src/main/java/co/tiagoaguiar/fitnesstracker/util/OnClicks.kt)
   
   <div id="objective-converter">
    <h3>Objective</h3>
@@ -100,7 +104,8 @@
  <p align="center">In this topic I will describe the features of the models used.</p>
  
  <section id="list-dao">
-  <h2>List DAO</h2>
+  
+## [List DAO](https://github.com/BHM871/Fitness-Tracker/blob/master/app/src/main/java/co/tiagoaguiar/fitnesstracker/model/ListDao.kt)
   
   <div id="objective-dao">
    <h3>Objective</h3>
@@ -131,7 +136,9 @@
  </section>
  
  <section id="lists">
-  <h2>Lists</h2>
+  
+## [Lists](https://github.com/BHM871/Fitness-Tracker/blob/master/app/src/main/java/co/tiagoaguiar/fitnesstracker/model/Lists.kt)
+  
   <div id="objective-lists">
    <h3>Objective</h3>
    <p>
@@ -157,7 +164,8 @@
  <p align="center">In this topic I will describe all activities, such as their functions and objectives</p>
  
  <section id="main-activity">
-  <h2>Main Activity</h2>
+  
+## [Main Activity](https://github.com/BHM871/Fitness-Tracker/blob/master/app/src/main/java/co/tiagoaguiar/fitnesstracker/MainActivity.kt)
   
   <div id="objective-main">
    <h3>Objective</h3>
@@ -178,7 +186,8 @@
  </section>
 
  <section id="imc-activity">
-  <h2>IMC Activity</h2>
+  
+## [IMC Activity](https://github.com/BHM871/Fitness-Tracker/blob/master/app/src/main/java/co/tiagoaguiar/fitnesstracker/ImcActivity.kt)
   
   <div id="objective-imc">
    <h3>Objective</h3>
@@ -201,7 +210,8 @@
  </section>
 
  <section id="tmb-activity">
-  <h2>TMB Activity</h2>
+  
+## [TMB Activity](https://github.com/BHM871/Fitness-Tracker/blob/master/app/src/main/java/co/tiagoaguiar/fitnesstracker/TmbActivity.kt)
   
    <div id="objective-tmb">
     <h3>Objective</h3>
@@ -226,7 +236,8 @@
  </section>
  
  <section id="open-list">
-  <h2>Open List</h2>
+  
+## [Open List](https://github.com/BHM871/Fitness-Tracker/blob/master/app/src/main/java/co/tiagoaguiar/fitnesstracker/OpenList.kt)
   
   <div id="objective-open">
    <h3>Objective</h3>
